@@ -20,6 +20,10 @@ def test():
 def tes():
     return render_template("1006.html")
 
+@app.route("/classes")
+def te():
+    return render_template("/classes.html")
+
 #start the server
 if __name__ == "__main__":
     app.run()
